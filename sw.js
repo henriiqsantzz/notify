@@ -11,7 +11,7 @@ self.addEventListener('message', (event) => {
     const { title, body, icon } = payload || {};
     self.registration.showNotification(title || 'Notificação', {
       body: body || '',
-      icon: icon || 'icons/icon-192.png',
+      icon: icon || 'icons/images.png',
       badge: 'icons/badge-72.png'
     });
   }
