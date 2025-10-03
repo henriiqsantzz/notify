@@ -43,7 +43,7 @@ askPermBtn.onclick = ensurePermission;
 function getFormData() {
   const title = document.getElementById('titleInput').value || '';
   const body = document.getElementById('bodyInput').value || '';
-  const icon = document.getElementById('iconInput').value || 'icons/icon-192.png';
+  const icon = document.getElementById('iconInput').value || 'icons/images.png';
   return { title, body, icon };
 }
 
